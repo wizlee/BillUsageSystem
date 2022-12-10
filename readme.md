@@ -1,6 +1,13 @@
 ## Background
 This is an interview solution for a test of a company @ Oct 2020. The question is originally in a PDF, converted it into markdown format for github viewing and portability.
 
+
+## Solution
+- All the requirements are unit tested in `BillUsageSystem_test.py`
+- The solution is in `GetPossibleCustomerIdsForOutstandingAmount.py`. 
+    - This is to fulfilled the question requirement of creating a function to be used by other team as an API.
+
+
 ## Question
 We have a system that issues usage bills to our customers every month.
 
@@ -38,8 +45,3 @@ IEnumerab1e<int> GetPossibleCustomerIdsForOutstandingAmount(
 ```
 
 Your function will be given input of a list of outstanding bills, and the outstanding amount to match. Fully paid for bills will not be included in `outstandingBills`. Your function must return zero, one or multiple customer IDs that may have one or more bills with sum of outstanding amount matching the value specified by `amountToMatch`.
-
-## Solution
-- All the requirements are unit tested in `BillUsageSystem_test.py`
-- The solution is in `GetPossibleCustomerIdsForOutstandingAmount.py`. 
-    - This is to fulfilled the question requirement of creating a function to be used by other team as an API.
