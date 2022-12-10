@@ -5,7 +5,7 @@ This is an interview solution for a test of a company @ Oct 2020. The question i
 ## Solution
 - All the requirements are unit tested in `BillUsageSystem_test.py`
 - The solution is in `GetPossibleCustomerIdsForOutstandingAmount.py`. 
-    - This is to fulfilled the question requirement of creating a function to be used by other team as an API.
+    - This is to fulfill the question requirement of creating a function to be used as an API.
 
 
 ## Question
